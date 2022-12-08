@@ -8,12 +8,7 @@ public class Background {
        drawGround(g, x, y);
        drawSky(g, x, y);
 
-
-
     }
-
-
-
 
 
     public static void drawGround (Graphics g, int x, int y){
