@@ -4,9 +4,9 @@ import java.applet.*;
 //class that draws flowers
 public class FlowerField extends Applet{
     public void paint(Graphics g) {
-
-          Background.drawGround(g, 200, 500);
-          Background.drawSky(g, 200, 450);
+            Background.drawBackground(g, 200, 500);
+        Background.drawBackground(g, 250, 500);
+        Background.drawBackground(g, 300, 500);
 
             Clouds.drawHappycloud(g);
             Clouds.drawAngrycloud(g);
